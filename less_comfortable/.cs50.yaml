@@ -1,0 +1,10 @@
+check50:
+  files:
+    - !exclude "*"
+    - !require "oil.py"
+
+submit50:
+  files:
+    - !exclude "*"
+    - !require "oil.py"
+    - !require "oil.csv"
