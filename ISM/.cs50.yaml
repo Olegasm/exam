@@ -7,3 +7,5 @@ submit50:
   files:
     - !exclude "*"
     - !require "oil.py"
+    - !require "oil.db"
+    - !require "create_insert_table.py"
